@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+//Ejercicio 1:
+int main(){
+    int a,b,c;
+    cout<<"Ingrese el primer valor: "<<endl;cin>>a;
+    cout<<"Ingrese el segundo valor: "<<endl;cin>>b;
+    c=a*b;
+    cout<<"El producto de ambos números es: "<<c<<endl;
+    return 0;
+}
+//Ejercicio 2:
+/*
+int main(){
+    char a[20],b[20],c[20];
+    cout<<"Ingrese su nombre: "<<endl;cin>>a;
+    cout<<"Ingrese su apellido paterno: "<<endl;cin>>b;
+    cout<<"Ingrese su apellido materno: "<<endl;cin>>c;
+    cout<<a[0]<<b<<c[0]<<"@unsa.edu.pe"<<endl;
+    return 0;
+}
+*/
+//Ejercicio 7:
+/*
+int main(){
+	int a, b;
+	cout<<"Ingrese el primer número (dividendo): "; cin>>a;
+	cout<<"Ingrese el segundo número (divisor): "; cin>>b;
+	if(a % b ==0){
+		cout<<a<<" es divisible entre "<<b<<endl;
+	}
+	else {
+		cout<<a<<" no es divisible entre "<<b<<endl;
+	}
+	return 0;
+}
+*/
+//Ejercicio 8: 
+/*
+int main(){
+ int a
+ float b,c=0,m;
+ cout<<"Ingrese la cantidad de números: ";cin>>a;
+ for(int i=0;i<a;i++){
+ cout<<"Ingrese el valor correspondiente: "<<i+1<<": ";cin>>b;
+ c=c+b;
+ }
+ m=c/a;
+ cout<<"La media es:: "<<m;
+}
+*/
+//Ejercicio 9:
+/*
+int main(int b, char *c[])
+{
+	int a,k=0,i=1,n=1;
+	while(i<=10)
+	{
+		cout<<n++<<": Ingrese un dato: "<<endl; cin>>a;
+		if(a<0)
+		k+=a;
+		i++;
+	}
+	cout<<"La suma de los números negativos es: "<<k<<endl;
+	return 0;
+}
+*/
+//Ejercicio 10
+/*
+int main(){
+    string b="asd";
+    string a;
+    cout<<"Introduzca la contraseña"<<endl;cin>>a;
+    while (a!=b){
+        cout<<"Hagalo correctamente: "<<endl;cin>>a;
+    }
+    return 0;
+}
+*/
